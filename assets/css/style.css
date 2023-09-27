@@ -1,48 +1,50 @@
-
 /* font-family: 'Bree Serif', serif;
 font-family: 'Poppins', sans-serif; */
 
 /* Navbar */
 
-.text-font{
+.text-font {
     font-family: 'Bree Serif', serif;
 }
 
 /* Main Content */
 
 
-.hero img{
+#background-image {
     width: 100vw;
     height: 50vh;
     position: relative;
     overflow: hidden;
     object-fit: cover;
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-
 }
 
-.main-content{
+.main-content {
     width: 100vw;
     height: 100vh;
 
 }
 
-.bg-img-text{
+.bg-img-text {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
- 
+
 }
 
-.bg-img-text h1{
+.bg-img-text h1 {
     font-family: 'Bree Serif', serif;
     color: #fff
 }
 
-.bg-img-text p{
+.bg-img-text p {
     color: #000;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Jumbotron */
+
+.jumbotron p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+} 
