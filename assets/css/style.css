@@ -1,5 +1,3 @@
-
-
 /* font-family: 'Bree Serif', serif;
 font-family: 'Poppins', sans-serif; */
 
@@ -10,16 +8,19 @@ font-family: 'Poppins', sans-serif; */
 }
 
 
-
 /* Block Dividers */
 
-.divider{
-    height:3px;
-    margin-left:5%;
+.divider {
+    height: 3px;
+    margin-left: 5%;
     margin-right: 5%;
     background-color: red;
 }
+
 /* Main Content */
+
+
+
 
 
 #background-image {
@@ -36,12 +37,28 @@ font-family: 'Poppins', sans-serif; */
 
 }
 
+.bg-opacity{
+    opacity: 0.6;
+}
+
 .bg-img-text {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
 
+/* Text for the sliding image */
+.bg-img-text-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    border: 3px solid white;
+    padding: 5px;
+    opacity: 1;
 }
 
 .bg-img-text h1 {
@@ -57,17 +74,17 @@ font-family: 'Poppins', sans-serif; */
 /* Jumbotron */
 
 
-.jumbotron p{
+.jumbotron p {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-} 
-
-.title-color{
-color: #fff;
-font-family: 'Bree Serif', serif;
-font-weight: 400;
 }
 
-.jumbo-height{
+.title-color {
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    font-weight: 400;
+}
+
+.jumbo-height {
     height: 50%;
 }
