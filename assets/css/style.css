@@ -14,14 +14,10 @@ font-family: 'Poppins', sans-serif; */
     height: 3px;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: red;
+    background-color: #e5e5e5;
 }
 
 /* Main Content */
-
-
-
-
 
 #background-image {
     width: 100vw;
@@ -73,5 +69,5 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .jumbo-height {
-    height: 50%;
+    height: 40%;
 }
