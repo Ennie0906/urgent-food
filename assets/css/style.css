@@ -71,3 +71,10 @@ font-family: 'Poppins', sans-serif; */
 .jumbo-height {
     height: 40%;
 }
+
+/* Map */
+
+iframe{
+    height: 50vh;
+    width: 100vw;
+}
